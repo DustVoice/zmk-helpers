@@ -90,6 +90,7 @@ layers, etc.
 | [`ZMK_COMBO`]                  | Create a combo                                     |
 | [`ZMK_CONDITIONAl_LAYER`]      | Create a `tri-layer` condition                     |
 | [`ZMK_LAYER`]                  | Create a layer and add it to the keymap            |
+| [`ZMK_LEADER_SEQUENCE`]        | Create a leader key sequence                       |
 | [`ZMK_UNICODE_SINGLE`]         | Create a unicode-char                              |
 | [`ZMK_UNICODE_PAIR`]           | Create a pair of lowercase/uppercase unicode-chars |
 
@@ -138,6 +139,7 @@ The following layouts are currently implemented.
 | `36.h`                  | 36               | Corne (5 cols), Corne-ish Zen (5 cols)     |
 | `42.h`                  | 42               | Corne, Corne-ish Zen                       |
 | `4x12.h`, `4x12_wide.h` | 48               | Planck                                     |
+| `5x6.h`                 | 60               | Caldera                                    |
 | `adv360_custom.h`       | 76               | Advantage360 Pro (custom matrix transform) |
 | `glove80.h`             | 80               | Glove80                                    |
 | `hillside_*.h`          | 46, 48, 52 or 56 | Hillside family                            |
@@ -230,6 +232,7 @@ guidelines:
 [`ZMK_COMBO`]: docs/core_helpers.md#zmk_combo
 [`ZMK_CONDITIONAL_LAYER`]: docs/core_helpers.md#zmk_conditional_layer
 [`ZMK_LAYER`]: docs/core_helpers.md#zmk_layer
+[`ZMK_LEADER_SEQUENCE`]: docs/core_helpers.md#zmk_leader_sequence
 [`ZMK_UNICODE_SINGLE`]: docs/core_helpers.md#zmk_unicode
 [`ZMK_UNICODE_PAIR`]: docs/core_helpers.md#zmk_unicode
 [`ZMK_AUTO_LAYER`]: docs/core_helpers.md#zmk_behavior-(explicit-variants)
